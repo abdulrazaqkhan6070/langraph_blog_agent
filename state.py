@@ -1,7 +1,7 @@
 from typing import Annotated
 from typing_extensions import TypedDict
 import operator
-
+# annotated allow us to attach additional information
 
 class BlogState(TypedDict):
     topic: str
